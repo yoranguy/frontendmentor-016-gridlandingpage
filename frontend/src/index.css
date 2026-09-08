@@ -13,6 +13,8 @@
   --font-weight-400: 400;
   --font-weight-500: 500;
   --font-family: "Inter", sans-serif;
+
+  --animate-hover: all 300ms ease-in-out 150ms;
 }
 
 /* :root {

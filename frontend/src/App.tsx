@@ -14,6 +14,7 @@ function App() {
   const useData = true;
 
   return (
+    
     <div className="w-[100%] bg-blue-600 text-white font-[var(--font-family)]">
       <>
         {useData &&
@@ -28,6 +29,7 @@ function App() {
           })}
       </>
     </div>
+    
   )
 }
 

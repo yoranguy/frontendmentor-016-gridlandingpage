@@ -2,6 +2,28 @@
     {
     "company_id":"0001",
     "company_name": "Bridge Collective",
+    "menu_list":[
+        {
+            "label": "About",
+            "url": "#"
+        },
+        {
+            "label": "Our Work",
+            "url": "#"
+        },
+        {
+            "label": "Partners",
+            "url": "#"
+        },
+        {
+            "label": "Annual Report",
+            "url": "#"
+        },
+        {
+            "label": "Donate",
+            "url": "#"
+        }
+        ],
     "hero":"A classroom for every child.",
     "description":"We fund the schools, train the teachers, and measure what works — so every child we reach today becomes a graduate tomorrow.",
     "stats": [
