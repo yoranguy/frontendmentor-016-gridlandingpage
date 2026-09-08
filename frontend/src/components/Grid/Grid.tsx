@@ -26,7 +26,7 @@ const Grid = (props: GridProps) => {
     return (
 
         
-        <div className="w-full flex flex-col min-[375px]:grid min-[1440px]:h-dvh min-[375px]:grid-rows-1 min-[1440px]:grid-rows-[auto_1fr_auto]">
+        <div className="w-full flex flex-col min-[375px]:grid h-dvh min-[375px]:grid-rows-1 min-[1440px]:grid-rows-[auto_1fr_auto]">
             <div className="w-full">
                 <Nav menu_list={props.menu_list} company_name={props.company_name} />
             </div>
