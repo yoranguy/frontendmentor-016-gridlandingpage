@@ -6,23 +6,23 @@
         
         {
             "label": "About",
-            "url": "/About"
+            "url": "/about"
         },
         {
             "label": "Our Work",
-            "url": "/OurWork"
+            "url": "/ourwork"
         },
         {
             "label": "Partners",
-            "url": "/Partners"
+            "url": "/partners"
         },
         {
             "label": "Annual Report",
-            "url": "/AnnualReport"
+            "url": "/annualreport"
         },
         {
             "label": "Donate",
-            "url": "/Donate"
+            "url": "/donate"
         }
         ],
     "hero":"A classroom for every child.",

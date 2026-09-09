@@ -2,7 +2,7 @@ import { useState } from 'react';
 import '../../../index.css'
 import { Link } from 'react-router-dom';
 
-export interface NavProps {
+export interface NavigationProps {
     company_name: string;
     menu_list: menuItemProps[];
 }
@@ -12,7 +12,7 @@ export interface menuItemProps{
     url: string;
 }
 
-const Nav = ({company_name, menu_list} : NavProps) => {
+const Navigation = ({company_name, menu_list} : NavigationProps) => {
 
     const [menu, setMenu] = useState(false);
 
@@ -73,4 +73,4 @@ return (
 );
 }
 
-export default Nav;
+export default Navigation;

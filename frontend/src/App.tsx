@@ -2,7 +2,7 @@
 import './App.css'
 import useFetch from './hooks/useFetch'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Nav from './components/Grid/components/Nav';
+import Nav from './components/Grid/components/Navigation';
 import Footer from './components/Grid/components/Footer';
 import Donate from './pages/Donate';
 import OurWork from './pages/OurWork';
@@ -11,6 +11,7 @@ import Partners from './pages/Partners';
 import About from './pages/About';
 import type { CompanyProps } from './components/Grid/FrontPage';
 import FrontPage from './components/Grid/FrontPage';
+import NotFound from './pages/NotFound';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -46,6 +47,7 @@ function App() {
                   <Route path="/partners" element={<Partners />} />
                   <Route path="/donate" element={<Donate />} />
                   <Route path="/about" element={<About />} />
+                  <Route path="*" element={<NotFound />} />
                 </Routes>
 
                 <div className="">

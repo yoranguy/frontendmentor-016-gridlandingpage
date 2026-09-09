@@ -1,5 +1,5 @@
 import Footer from "../components/Grid/components/Footer";
-import Nav from "../components/Grid/components/Nav";
+import Nav from "../components/Grid/components/Navigation";
 import FrontPage, { type CompanyProps } from "../components/Grid/FrontPage";
 
 

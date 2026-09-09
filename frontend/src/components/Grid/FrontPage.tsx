@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import type { menuItemProps } from "./components/Nav";
+import type { menuItemProps } from "./components/Navigation";
 import Stats, { type StatsProps } from "./components/Stats";
 import './FrontPage.css'
 
