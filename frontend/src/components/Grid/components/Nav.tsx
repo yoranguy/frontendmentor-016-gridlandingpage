@@ -42,8 +42,8 @@ return (
 
             {/* menu */}
             <div className={`text-5xl ${menu ? 'menu-active' : 'menu-inactive'} transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-120`} onClick={() => {handleClick();}}>
-                <img src="/src/assets/images/icon-menu.svg" className={`${menu ? 'hidden' : 'block'}`} />
-                <img src="/src/assets/images/icon-close.svg" className={`${menu ? 'block pointer-events-auto' : 'hidden'}`} />
+                <img src="/images/icon-menu.svg" className={`${menu ? 'hidden' : 'block'}`} />
+                <img src="/images/icon-close.svg" className={`${menu ? 'block pointer-events-auto' : 'hidden'}`} />
             </div>
         </div>
 
