@@ -29,25 +29,25 @@
     "description":"We fund the schools, train the teachers, and measure what works — so every child we reach today becomes a graduate tomorrow.",
     "stats": [
         {
-            "icon":"/src/assets/images/icon-sparkle.svg",
+            "icon":"/images/icon-sparkle.svg",
             "value":"2.4M",
             "stats_name":"Students reached",
             "stats_description":"Across 31 countries since 2011."
         },
         {
-            "icon":"/src/assets/images/icon-plus.svg",
+            "icon":"/images/icon-plus.svg",
             "value":"1,284",
             "stats_name":"Schools partnered",
             "stats_description":"In 14 countries, from Kenya to Guatemala."
         },
         {
-            "icon":"/src/assets/images/icon-arrow-right.svg",
+            "icon":"/images/icon-arrow-right.svg",
             "value":"38K",
             "stats_name":"Teachers trained",
             "stats_description":"Equipped with modern tools and methodology."
         },
         {
-            "icon":"/src/assets/images/icon-trending-up.svg",
+            "icon":"/images/icon-trending-up.svg",
             "value":"3.1×",
             "stats_name":"Graduation lift",
             "stats_description":"Partner schools outperform national averages 3x."
