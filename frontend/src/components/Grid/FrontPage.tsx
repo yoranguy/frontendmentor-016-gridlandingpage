@@ -3,8 +3,7 @@ import type { menuItemProps } from "./components/Nav";
 import Stats, { type StatsProps } from "./components/Stats";
 import './FrontPage.css'
 
-
-export interface FrontPageProps {
+export interface CompanyProps {
     company_id: string;
     company_name: string;
     menu_list: menuItemProps[];
@@ -14,7 +13,7 @@ export interface FrontPageProps {
     footer: string[];
 }
 
-const FrontPage = (props: FrontPageProps) => {
+const FrontPage = (props: CompanyProps) => {
 
     const headerData = {
         hero: props.hero,
@@ -22,8 +21,6 @@ const FrontPage = (props: FrontPageProps) => {
     }
 
     return (
-
-
             <div className="min-[1440px]:grid min-[1440px]:grid-cols-[45fr_55fr]">
 
                 <div className="w-full min-[1440px]:grid-col-2 min-[1440px]:flex min-[1440px]:grow">
@@ -40,9 +37,6 @@ const FrontPage = (props: FrontPageProps) => {
                 </main>
 
             </div>
-
-
-
     );
 }
 

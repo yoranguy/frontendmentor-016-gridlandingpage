@@ -1,26 +1,22 @@
 // import { useState } from 'react'
 import './App.css'
 import useFetch from './hooks/useFetch'
-import type { GridProps } from './components/Grid/Grid'
-
-import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Nav from './components/Grid/components/Nav';
-import FrontPage from './components/Grid/FrontPage';
 import Footer from './components/Grid/components/Footer';
 import Donate from './pages/Donate';
 import OurWork from './pages/OurWork';
 import AnnualReport from './pages/AnnualReport';
 import Partners from './pages/Partners';
 import About from './pages/About';
-
-
+import type { CompanyProps } from './components/Grid/FrontPage';
+import FrontPage from './components/Grid/FrontPage';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   const dataURL = "/data/data.json";
-  const { data, isLoading, error }: { data: GridProps[] | null; isLoading: boolean | null; error: string | null } =
+  const { data, isLoading, error }: { data: CompanyProps[] | null; isLoading: boolean | null; error: string | null } =
     useFetch(dataURL);
   const test = true;
   const useData = true;
@@ -33,7 +29,7 @@ function App() {
           {test && isLoading && <div>Data is loading...</div>}
           {test && error && <div>Error: ${error}</div>}
 
-          {data && data.map((component: GridProps) => {
+          {data && data.map((component: CompanyProps) => {
 
             return (
 
@@ -57,7 +53,6 @@ function App() {
                 </div>
 
               </div>
-              // <Home {...component} key={component.company_id}/>
 
             )
           })
