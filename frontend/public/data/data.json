@@ -3,25 +3,26 @@
     "company_id":"0001",
     "company_name": "Bridge Collective",
     "menu_list":[
+        
         {
             "label": "About",
-            "url": "#"
+            "url": "/About"
         },
         {
             "label": "Our Work",
-            "url": "#"
+            "url": "/OurWork"
         },
         {
             "label": "Partners",
-            "url": "#"
+            "url": "/Partners"
         },
         {
             "label": "Annual Report",
-            "url": "#"
+            "url": "/AnnualReport"
         },
         {
             "label": "Donate",
-            "url": "#"
+            "url": "/Donate"
         }
         ],
     "hero":"A classroom for every child.",

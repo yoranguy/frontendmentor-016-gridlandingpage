@@ -1,11 +1,10 @@
-
 import Header from "./components/Header";
-import { type menuItemProps } from "./components/Nav";
+import type { menuItemProps } from "./components/Nav";
 import Stats, { type StatsProps } from "./components/Stats";
-import './Grid.css'
+import './FrontPage.css'
 
 
-export interface GridProps {
+export interface FrontPageProps {
     company_id: string;
     company_name: string;
     menu_list: menuItemProps[];
@@ -15,7 +14,7 @@ export interface GridProps {
     footer: string[];
 }
 
-const Grid = (props: GridProps) => {
+const FrontPage = (props: FrontPageProps) => {
 
     const headerData = {
         hero: props.hero,
@@ -31,7 +30,7 @@ const Grid = (props: GridProps) => {
                     <Header {...headerData} />
                 </div>
 
-                <main className="min-[375px]:grid min-[375px]:grid-cols-2  min-[1440px]:grid-cols-[auto_auto] min-[1440px]:grid-rows-[auto_auto]">
+                <main className="min-[375px]:grid min-[375px]:grid-cols-2 min-[1440px]:grid-cols-[auto_auto] min-[1440px]:grid-rows-[auto_auto]">
                     {props.stats.slice(0, 4).map((stat: StatsProps, index: number) =>
                     (
                         <Stats {...stat} key={index} index={index} />
@@ -47,4 +46,4 @@ const Grid = (props: GridProps) => {
     );
 }
 
-export default Grid;
+export default FrontPage;

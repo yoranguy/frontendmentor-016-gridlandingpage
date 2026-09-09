@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../../../index.css'
+import { Link } from 'react-router-dom';
 
 export interface NavProps {
     company_name: string;
@@ -38,7 +39,7 @@ return (
         <div className='flex flex-row gap-1 justify-between items-center top-0 bg-blue-600 p-[25px] border-b border-[var(--blue-400)]'>
             {/* company_name */}
             <div className="flex flex-row justify-center items-center-safe text-nav">
-                <p className="text-[1rem]">● {company_name}</p>
+                <p className="text-[1rem]">● <Link to="/">{company_name}</Link></p>
             </div>
 
             {/* menu */}
@@ -57,7 +58,8 @@ return (
 
                     {menu_list.map( (item: menuItemProps, index: number) => (
                             <li key={index}>
-                                <a href={item.url} className="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-120 hover:underline hover:underline-offset-6 hover: decoration-2">{item.label}</a>
+                                {/* <a href={item.url} className="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-120 hover:underline hover:underline-offset-6 hover: decoration-2">{item.label}</a> */}
+                                <Link to={item.url} onClick={handleClick}>{item.label}</Link>
                             </li>)
                         )}
                     
