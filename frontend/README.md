@@ -49,7 +49,7 @@ Desktop:
 ### Links
 
 - Solution URL: [https://github.com/yoranguy/frontendmentor-016-gridlandingpage/tree/main/frontend](https://github.com/yoranguy/frontendmentor-016-gridlandingpage/tree/main/frontend)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [https://yoranguy-frontendmentor-grid.vercel.app/](https://yoranguy-frontendmentor-grid.vercel.app/)
 
 ## My process
 
